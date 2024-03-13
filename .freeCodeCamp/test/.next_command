@@ -169,3 +169,5 @@ declare -p
 declare -p
 declare -p ARR
 ./fortune.sh
+ls --color=auto -la
+open bingo.sh
