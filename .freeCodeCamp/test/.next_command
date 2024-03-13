@@ -113,3 +113,4 @@ help while
 __vsc_prompt_cmd_original
 touch bingo.sh
 chmod +x bingo.sh
+open bingo.sh
