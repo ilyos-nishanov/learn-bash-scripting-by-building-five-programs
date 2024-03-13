@@ -245,3 +245,6 @@ type then
 type bash
 type psql
 type ./five.sh
+history >> history.txt
+ls --color=auto pla
+ls --color=auto -la

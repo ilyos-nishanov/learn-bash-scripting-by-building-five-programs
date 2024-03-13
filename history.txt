@@ -1,0 +1,197 @@
+    1  echo hello bash
+    2  touch questionnaire.sh
+    3  sh questionnaire.sh
+    4  bash questionnaire.sh
+    5  which bash
+    6  ./questionnaire.sh
+    7  ls -l
+    8  chmod +x questionnaire.sh 
+    9  ls -l
+   10  ./questionnaire.sh 
+   11  ./questionnaire.sh 
+   12  ./questionnaire.sh 
+   13  ./questionnaire.sh 
+   14  ./questionnaire.sh 
+   15  ./questionnaire.sh 
+   16  ./questionnaire.sh 
+   17  ./questionnaire.sh 
+   18  ./questionnaire.sh 
+   19  ./questionnaire.sh 
+   20  echo --help
+   21  man echo
+   22  ./questionnaire.sh 
+   23  ./questionnaire.sh 
+   24  ./questionnaire.sh 
+   25  ./questionnaire.sh 
+   26  ./questionnaire.sh 
+   27  ./questionnaire.sh 
+   28  ./questionnaire.sh 
+   29  touch countdown.sh
+   30  chmod +x countdown.sh 
+   31  ls -la
+   32  ./countdown.sh 
+   33  ./countdown.sh 
+   34  ./countdown.sh arg1 arg2 arg3
+   35  ./countdown.sh arg1 arg2 arg3
+   36  help
+   37  if man
+   38  man if
+   39  help if
+   40  ./countdown.sh arg1
+   41  ./countdown.sh arg
+   42  ./countdown.sh arg1
+   43  ./countdown.sh arg
+   44  ./countdown.sh 4
+   45  ./countdown.sh 5
+   46  help
+   47  help [[
+   48  help test
+   49  ./countdown.sh 5
+   50  [[ 4 -le 5 ]]
+   51  echo $?
+   52  [[ 4 -ge 5 ]]
+   53  echo $?
+   54  [[ 4 -ge 5 ]]; echo $?
+   55  [[ 10 != 5 ]]; echo $?
+   56  [[ 10 -ne 5 ]]; echo $?
+   57  bad_command;
+   58  bad_command; echo $?
+   59  ls bad_command
+   60  ls
+   61  bad_command; ls
+   62  ls; echo $?
+   63  ls -yy; echo $?
+   64  ls -y
+   65  ls -y; echo $?
+   66  help test
+   67  [[ -a countdown.sh]]; echo $?
+   68  [[ -a countdown.sh ]]; echo $?
+   69  [[ -a bad_file.txt ]]; echo $?
+   70  [[ -x countdown.sh ]]; echo $?
+   71  help [[
+   72  [[ -x countdown.sh && 5 -le 4 ]]; echo $?
+   73  [[ -x countdown.sh || 5 -le 4 ]]; echo $?
+   74  ./countdown.sh 1
+   75  ./countdown.sh 0
+   76  help
+   77  ./countdown.sh 10
+   78  help
+   79  ls /
+   80  ls /bin
+   81  man sleep
+   82  sleep 3
+   83  ./countdown.sh 3
+   84  ./countdown.sh 3
+   85  ./countdown.sh 1
+   86  help while
+   87  ./countdown.sh 5
+   88  touch bingo.sh
+   89  chmod +x bingo.sh 
+   90  open bingo.sh 
+   91  ./bingo.sh 
+   92  printenv
+   93  echo LANG
+   94  echo $LANG
+   95  declare -p
+   96  echo $RANDOM
+   97  ./bingo.sh 
+   98  ./bingo.sh 
+   99  ./bingo.sh 
+  100  ./bingo.sh 
+  101  I=0
+  102  echo $I
+  103  (( I++ ))
+  104  echo $I
+  105  help let
+  106  (( I +=10 ))
+  107  echo $I
+  108  $(( I+4 ))
+  109  echo $(( I+4 ))
+  110  echo $I
+  111  J=$(( I-6 ))
+  112  echo $J
+  113  echo J*5+25
+  114  echo $J*5+25
+  115  echo $(( J*5+25 ))
+  116  echo $J
+  117  declare -p
+  118  declare -p J
+  119  declare -p RANDOM
+  120  echo RANDOM%75
+  121  echo $RANDOM%75
+  122  echo $(( RANDOM%75 ))
+  123  echo $(( RANDOM%75+1 ))
+  124  ./bingo.sh 
+  125  ./bingo.sh 
+  126  help let
+  127  ./bingo.sh 
+  128  ./bingo.sh 
+  129  ./bingo.sh 
+  130  ./bingo.sh 
+  131  ./bingo.sh 
+  132  ./bingo.sh 
+  133  ./bingo.sh 
+  134  touch fortune.sh
+  135  chmod +x fortune.sh 
+  136  open fortune.sh 
+  137  ./fortune.sh 
+  138  ARR=("a" "b" "c")
+  139  echo ${ARR[1]}
+  140  echo ${ARR*}
+  141  echo ${ARR[*]}
+  142  declare -p
+  143  declare -p
+  144  declare -p ARR
+  145  ./fortune.sh 
+  146  ls -la
+  147  open bingo.sh 
+  148  ./fortune.sh 
+  149  ./fortune.sh 
+  150  help
+  151  function help
+  152  help function
+  153  ./fortune.sh 
+  154  ./fortune.sh 
+  155  help
+  156  help until
+  157  ./fortune.sh 
+  158  ls -la
+  159   
+  160  open fortune.sh 
+  161  ./fortune.sh 
+  162  help [[
+  163  [[ hello == hello ]]; echo $?
+  164  [[ hello == word ]]; echo $?
+  165  [[ hello == world ]]; echo $?
+  166  [[ hello =~ el ]]; echo $?
+  167  [[ hello world =~ lo wor ]]; echo $?
+  168  [[ 'hello world' =~ 'lo wor' ]]; echo $?
+  169  [[ 'hello world' =~ ^h ]]; echo $?
+  170  [[ 'hello world' =~ ^h.+d$ ]]; echo $?
+  171  VAR='hello world'
+  172  echo $VAR
+  173  [[$VAR == 'hello world']]; $?
+  174  [[$VAR == 'hello world']]; echo $?
+  175  [[ $VAR == 'hello world' ]]; echo $?
+  176  [[ $VAR =~ ?$ ]]; echo $?
+  177  [[ $VAR =~ \?$ ]]; echo $?
+  178  [[ test? =~ \?$ ]]; echo $?
+  179  ./fortune.sh 
+  180  ./fortune.sh 
+  181  ./fortune.sh 
+  182  touch five.sh
+  183  chmod +x five.sh
+  184  open five.sh 
+  185  ./five.sh 
+  186  clear
+  187  ./five.sh 
+  188  help
+  189  help type
+  190  type echo
+  191  type read
+  192  type if
+  193  type then
+  194  type bash
+  195  type psql
+  196  type ./five.sh
+  197  history >> history.txt
