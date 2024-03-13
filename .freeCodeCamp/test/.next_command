@@ -212,3 +212,5 @@ open fortune.sh
 ./fortune.sh
 help [[
 [[ hello == hello ]]
+[[ hello == word ]]
+[[ hello == world ]]
