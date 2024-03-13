@@ -54,3 +54,4 @@ chmod +x countdown.sh
 ls --color=auto -la
 ./countdown.sh
 ./countdown.sh
+./countdown.sh arg1 arg2 arg3
