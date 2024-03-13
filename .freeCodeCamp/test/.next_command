@@ -115,3 +115,4 @@ touch bingo.sh
 chmod +x bingo.sh
 open bingo.sh
 ./bingo.sh
+printenv
