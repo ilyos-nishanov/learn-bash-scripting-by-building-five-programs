@@ -88,3 +88,4 @@ ls --color=auto
 ls --color=auto -yy
 ls --color=auto -y
 ls --color=auto -y
+help test
