@@ -234,3 +234,4 @@ touch five.sh
 chmod +x five.sh
 open five.sh
 ./five.sh
+clear
